@@ -1,0 +1,13 @@
+name: Musicstone
+main: cn.jji8.Musicstone.main
+version: 1.0
+author: jianjianai
+api-version: 1.13
+depend: [NoteBlockAPI]
+commands:
+  加载音乐:
+    aliases: [jzyy, jiazaiyinyue]
+    description: "加载音乐"
+    permission: 音乐.加载音乐
+    permission-message: "你没有权限执行此命令"
+    usage: /<command> 文件名字
